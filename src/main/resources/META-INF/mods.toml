@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT"
+issueTrackerURL="https://github.com/Ketheroth/Key-On-Screen/issues"
+[[mods]]
+modId="keyonscreen"
+version="1.18.2-1.0.0"
+displayName="Key On Screen"
+updateJSONURL="https://ketheroth.com/mods/key-on-screen.json"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/key-on-screen"
+logoFile="logo.png"
+authors="Ketheroth"
+description='''
+Display typed key on the screen.
+'''
+[[dependencies.slots]]
+	modId="forge"
+	mandatory=true
+	versionRange="[40,)"
+	ordering="NONE"
+	side="CLIENT"
+[[dependencies.slots]]
+	modId="minecraft"
+	mandatory=true
+	versionRange="[1.18.2,1.19)"
+	ordering="NONE"
+	side="CLIENT"
